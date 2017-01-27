@@ -16,5 +16,6 @@ public class HttpClient {
     client = new thriftshop.ThiftShop.Client(loPFactory);
     
     System.out.println(client.priceCheck("hamburgers"));
+    System.out.println(client.priceCheck("dohs"));
   }
 }
